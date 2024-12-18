@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discover-service" />
+        <module name="organisationMS" />
+        <module name="gateway-service" />
+        <module name="DiscoveryClientService" />
+        <module name="Prometheus_Service" />
+        <module name="userMS" />
+        <module name="eureka-discovery" />
+        <module name="Config-Server" />
+        <module name="Kafka-Service" />
+        <module name="donationMS" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-Server" options="-parameters" />
+      <module name="DiscoveryClientService" options="-parameters" />
+      <module name="Kafka-Service" options="-parameters" />
+      <module name="Prometheus_Service" options="-parameters" />
+      <module name="discover-service" options="-parameters" />
+      <module name="donationMS" options="-parameters" />
+      <module name="eureka-discovery" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="organisationMS" options="-parameters" />
+      <module name="userMS" options="-parameters" />
+    </option>
+  </component>
+</project>
