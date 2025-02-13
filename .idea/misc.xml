@@ -4,19 +4,19 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/userMS/pom.xml" />
-        <option value="$PROJECT_DIR$/organisationMS/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
-        <option value="$PROJECT_DIR$/donationMS/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
         <option value="$PROJECT_DIR$/DiscoveryClientService/pom.xml" />
-        <option value="$PROJECT_DIR$/Prometheus_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/donationMS/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/Kafka-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/organisationMS/pom.xml" />
+        <option value="$PROJECT_DIR$/Prometheus_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/userMS/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

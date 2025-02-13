@@ -2,15 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discover-service" />
-        <module name="organisationMS" />
         <module name="gateway-service" />
-        <module name="DiscoveryClientService" />
+        <module name="organisationMS" />
         <module name="Prometheus_Service" />
         <module name="userMS" />
         <module name="eureka-discovery" />
@@ -23,7 +21,6 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Config-Server" options="-parameters" />
-      <module name="DiscoveryClientService" options="-parameters" />
       <module name="Kafka-Service" options="-parameters" />
       <module name="Prometheus_Service" options="-parameters" />
       <module name="discover-service" options="-parameters" />
